@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>business</title>
+    <link rel="shortcut icon" href="business2.jpg" type="image/x-icon">
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .container{
+            height: 100vh;
+            width: 100vw;
+            background-color: #FFDEE9;
+            background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            background-color: white;
+            height: 70%;
+            width: 90%;
+            display: flex;
+            flex-direction: row;
+            box-shadow: 10px 5px 12px black;
+            transition:all 2s linear 1s;
+        }
+        .box:hover{
+            transform: scale(1.1);
+        }
+        .leftbox{
+            height: 100%;
+            width: 50%;
+            background-color: #FF9A8B;
+            background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding: 50px;
+        }
+        .rightbox{
+            height: 100%;
+            width: 50%;
+        }
+        .rightbox img{
+            height: 100%;
+            width: 100%;
+        }
+        .grow { 
+transition: all .2s ease-in-out; 
+}
+
+.grow:hover { 
+transform: scale(1.1); 
+}
+        .leftbox h1,p,h5{
+            color: white;
+        }
+        .idiots{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .p{
+            color: white;
+        }
+        /* @media (min-width:500px) {
+            .box{
+                flex-direction: column;
+            }
+        } */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="leftbox">
+                <div class="h1"><h1>Get insights that helps your business grow</h1></div>
+                <div class="p">If you’re someone who is great with numbers and pays attention to the little details, starting a bookkeeping business might be a viable idea. Bookkeepers sell their services to small businesses that need help managing the books, preparing payroll and gathering data for taxes. You would need to be very well-organized and understand the inherent liabilities that can come with handling someone’s finances; make sure you form an LLC if you choose this route.</div>
+                <div class="idiots">
+                    <div class="p1">
+                        <h1>10K+</h1>
+                        <h5>Comments</h5>
+                    </div>
+                    <div class="p2">
+                        <h1>214+</h1>
+                        <h5>Paid Users</h5>
+                    </div>
+                    <div class="p3">
+                        <h1>12M+</h1>
+                        <h5>Views</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="rightbox">
+                <img src="razorpay.png" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
